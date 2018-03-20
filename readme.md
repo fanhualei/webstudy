@@ -4,6 +4,9 @@
 
 * [开发工具安装](#开发工具安装)
 * [Flex布局](#flex布局)
+* 参考网址
+    * [有赞UI](https://www.youzanyun.com/zanui/weapp#/zanui/base/icon)
+    * [微信小程序官网](https://mp.weixin.qq.com/debug/wxadoc/dev/component/text.html)
 
 
 
