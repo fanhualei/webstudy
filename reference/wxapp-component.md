@@ -13,6 +13,10 @@
     * [JSON中引用](#json中引用)
     * [WXSS中引用](#wxss中引用)
     
+* [高级篇](#高级篇)
+    * [给组件添加属性](#给组件添加属性)
+    * [给组件添加事件](#给组件添加事件)    
+    
 * 小技巧
     * [组建必须引用App.wxss](组建必须引用App.wxss)  
 
@@ -87,3 +91,126 @@ Component({
 <wk-pk-line/>
 ```
     
+    
+## 高级篇    
+
+### 给组件添加属性
+
+> 属性可以用来传值，见下面的代码
+
+* wk-pk-line组件中的price等属性，都是自己定义的
+
+```xml
+<!-- 列表页面 -->
+<view class='wk-search-content-wrapper ' >
+  <block wx:for="{{pkList}}" wx:key="item" wx:for-index="idx">  
+      <wk-pk-line  price='{{item.price}}' 
+                         avatar='{{item.avatar}}'    
+                         community='{{item.community}}' 
+                         strDistance='{{item.strDistance}}' 
+                         strAddress='{{item.strAddress}}' 
+                         strTime='{{item.strTime}}' 
+                         strLimit='{{item.strLimit}}' 
+       />
+  </block> 
+</view>
+```
+<br>
+
+> 怎么定义属性
+
+* 在组件的js定义属性
+
+````js
+Component({
+
+  options: {
+    multipleSlots: true // 在组件定义时的选项中启用多slot支持
+  },
+
+  /**
+   * 组件的属性列表
+   * 用于组件自定义设置
+   */
+
+  properties: {
+    //头像
+    avatar: { // 属性名 
+      type: String, // 类型（必填），目前接受的类型包括：String, Number, Boolean, Object, Array, null（表示任意类型） 
+      value: 'https://s11.mogucdn.com/p2/170413/upload_86dkh4e886991g9lji7a6g5c530ji_400x400.jpg' // 属性初始值（可选），如果未指定则会根据类型选择一个
+     },
+
+    //小区名
+    community: { 
+      type: String, 
+      value: '小区名称' 
+    },
+
+    //价格
+    price: {
+      type: Number,
+      value: 0
+    },
+
+    //距离
+    strDistance: {
+      type: String,
+      value: '0m'
+    },
+
+    //详细地址
+    strAddress: {
+      type: String,
+      value: '详细地址'
+    },
+
+    //初祖时间
+    strTime:{
+      type:String,
+      value:'可租时间**:**到**:**'
+    },
+
+    //限制条件
+    strLimit: {
+      type: String,
+      value: '限制条件'
+    }
+  } 
+
+})
+````
+<br>
+
+* 在组件的wxml中使用属性
+
+```xml
+ <view class="wk-pk-list zan-panel zan-panel--without-margin-top">
+  <view class='wk-pk-list-left' >
+   <wxc-avatar class="avatar" src="{{avatar}}" /> 
+  </view>
+  <view class='wk-pk-list-right' >
+      <view class='wk-pk-list-right-line0'>
+        <view  class='wk-pk-list-right-line0-left  zan-ellipsis' >{{community}}</view>
+        <view  class='wk-pk-list-right-line0-right zan-c-gray-dark ' >
+          <text class='wk-font-color-main'>￥{{price}}</text>/月
+        </view>
+
+      </view>
+      <view class='wk-pk-list-right-line zan-font-12 zan-c-gray-dark'>
+        {{strDistance}}•{{strAddress}}
+      </view>
+      <view class='wk-pk-list-right-line zan-font-12 zan-c-gray-dark'>
+       {{strTime}}•{{strLimit}}
+      </view>
+  </view>
+</view> 
+```
+
+### 给组件添加事件
+
+
+
+
+
+
+

@@ -22,7 +22,8 @@
     
 * 微信小程序开发技巧
     * [自定义组件](reference/wxapp-component.md)    
-    * [如何做固定表头](reference/wxapp-flex-head.md)  
+    * [如何做固定表头](reference/wxapp-flex-head.md)
+    * [如何用本地JSON模拟数据](reference/wxapp-test-json.md)  
     
 
 
