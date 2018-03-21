@@ -10,7 +10,7 @@
     * [有赞UI](https://www.youzanyun.com/zanui/weapp#/zanui/base/icon)
     * [微信小程序官网](https://mp.weixin.qq.com/debug/wxadoc/dev/component/text.html)
     * [蘑菇街UI](https://meili.github.io/min/)
-    * [如何开发模板](https://www.jianshu.com/p/8a2a730d9e60)
+    * [如何开发组件](https://www.jianshu.com/p/8a2a730d9e60)
 * [开发工具安装](#开发工具安装)
     * [webstorm的使用](#webstorm的使用)
     * [minui的打包](#minui的打包)
@@ -47,7 +47,7 @@ rpx  | px | 字体说明  |
 20  | 10  | 一般用于标签内文字
 
 
-<img width="324" height="576" src="reference/imgs/font-siez.jpg"/>
+<img width="30%" height="30%" src="reference/imgs/font-siez.jpg"/>
 
  
 ### 颜色
@@ -64,7 +64,7 @@ rpx  | px | 字体说明  |
 #EFEFEF  | 背景色  | 用于背景，补充性文案
 #1aac19  | <font color=#1aac19 >主色(绿)</font>   | 用户品牌颜色
 
-<img width="324" height="576" src="reference/imgs/color.jpg"/>
+<img width="30%" height="30%" src="reference/imgs/color.jpg"/>
 
 
 
