@@ -6,8 +6,6 @@
     * [间距](#间距)
     * [字体](#字体)
     * [颜色](#颜色)
-
-
 * 参考网址
     * [有赞UI](https://www.youzanyun.com/zanui/weapp#/zanui/base/icon)
     * [微信小程序官网](https://mp.weixin.qq.com/debug/wxadoc/dev/component/text.html)
@@ -17,7 +15,10 @@
     * [webstorm的使用](#webstorm的使用)
     * [minui的打包](#minui的打包)
 
-* [Flex布局](#flex布局)
+* [HTML使用要点](html使用要点)
+    * [Flex布局](#flex布局)
+    * [边框距离](#边框距离)
+
 
 
 <br> <br>
@@ -106,17 +107,17 @@ rpx  | px | 字体说明  |
   }
 ```
 
+## HTML使用要点
 
 
-
-## Flex布局
+### Flex布局
 
 > 参考网址
 
 * [Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 * [Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
 
-### 基本语法
+#### 基本语法
 
 > 基本显示
 
@@ -144,3 +145,10 @@ rpx  | px | 字体说明  |
 
 * [例子程序](flexbox/index.html)
 * [例子说明](flexbox/readme.md)
+
+
+## 边框距离
+
+* [css margin属性深入解析](http://www.jb51.net/css/66198.html)
+
+![alt](reference/imgs/margin.png)
