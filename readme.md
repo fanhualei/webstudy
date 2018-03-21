@@ -39,7 +39,9 @@ rpx  | px | 字体说明  |
 22  | 11  | 一般用于销售量；关注人数；参与人数；
 20  | 10  | 一般用于标签内文字
 
-![alt](reference/imgs/font-siez.jpg)
+
+<img width="324" height="576" src="reference/imgs/font-siez.jpg"/>
+
  
 ### 颜色
 
