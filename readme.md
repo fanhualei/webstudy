@@ -18,6 +18,12 @@
 * [HTML使用要点](html使用要点)
     * [Flex布局](#flex布局)
     * [边框距离](#边框距离)
+    
+    
+* 微信小程序开发技巧
+    * [自定义组件](reference/wxapp-component.md)    
+    * [如何做固定表头](reference/wxapp-flex-head.md)  
+    
 
 
 
