@@ -55,9 +55,9 @@ rpx  | px | 字体说明  |
 #EFEFEF  | 背景色  | 用于背景，补充性文案
 #1aac19  | <font color=#1aac19 >主色(绿)</font>   | 用户品牌颜色
 
+<img width="324" height="576" src="reference/imgs/color.jpg"/>
 
 
-![alt](reference/imgs/color.jpg)
 
 ## 开发工具安装
 
