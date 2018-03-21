@@ -47,7 +47,7 @@ rpx  | px | 字体说明  |
 20  | 10  | 一般用于标签内文字
 
 
-<img width="30%" height="30%" src="reference/imgs/font-siez.jpg"/>
+<img width="50%" height="50%" src="reference/imgs/font-siez.jpg"/>
 
  
 ### 颜色
@@ -64,7 +64,7 @@ rpx  | px | 字体说明  |
 #EFEFEF  | 背景色  | 用于背景，补充性文案
 #1aac19  | <font color=#1aac19 >主色(绿)</font>   | 用户品牌颜色
 
-<img width="30%" height="30%" src="reference/imgs/color.jpg"/>
+<img width="50%" height="50%" src="reference/imgs/color.jpg"/>
 
 
 
