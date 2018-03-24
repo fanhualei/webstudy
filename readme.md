@@ -28,7 +28,9 @@
     * [如何在自定义组件中得到事件](reference/wxapp-component.md) 
     * [如何向上滑动进行检索]() 
     
-
+* 网友总结的开发技巧
+    * [微信小程序开发经验总结（推荐）](http://www.jb51.net/article/102742.htm)
+    * [Javascript 教程](https://m.runoob.com/js/)
 
 
 <br> <br>
@@ -138,7 +140,7 @@ rpx  | px | 字体说明  |
     * flex-direction:row | row-reverse | column | column-reverse ;   按照行还是列进行排序
     * flex-wrap: none | wrap | wrap-reverse ; 是否这行    
     * justify-content : flex-start | flex-end | center | space-between | space-around ; 主轴对齐的方法
-    * align-item : flex-start | flex-end | center | baseline | stretch; 纵轴对齐方法 <br>
+    * align-items : flex-start | flex-end | center | baseline | stretch; 纵轴对齐方法 <br>
       （默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。
     * align-content : flex-start | flex-end | center | space-between | space-around |stretch; 多轴对齐方法
 
